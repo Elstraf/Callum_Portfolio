@@ -1,7 +1,7 @@
 :root {
   --color-text: white;
-  --color-text-hover: green;
-  --color-text-active: rgb(0, 232, 0);
+  --color-text-hover: rgba(212, 206, 206, 0.685);
+  --color-text-active: rgba(128, 128, 128, 0.404);
   --color-background: black;
 }
 
