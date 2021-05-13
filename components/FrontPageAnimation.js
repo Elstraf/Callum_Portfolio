@@ -1,25 +1,102 @@
-import React from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import styles from './fpa.module.css'
-import BIRDS from 'vanta/dist/vanta.birds.min'
+import Particles from 'react-tsparticles'
 
 const FrontPageAnimation = () => {
-  return class MyComponent extends React.Component {
-    constructor() {
-      super()
-      this.vantaRef = React.createRef()
-    }
-    componentDidMount() {
-      this.vantaEffect = BIRDS({
-        el: this.vantaRef.current,
-      })
-    }
-    componentWillUnmount() {
-      if (this.vantaEffect) this.vantaEffect.destroy()
-    }
-    render() {
-      return <div ref={this.vantaRef}>Foreground content goes here</div>
-    }
-  }
+  const particlesInit = null
+  const particlesLoaded = null
+
+  return (
+    <div className={styles.profileContainer}>
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          background: {
+            color: {
+              value: '#000',
+            },
+          },
+          fpsLimit: 60,
+          fullScreen: {
+            enable: true,
+          },
+          interactivity: {
+            detectsOn: 'canvas',
+            events: {
+              onClick: {
+                enable: true,
+                mode: 'push',
+              },
+              onHover: {
+                enable: true,
+                mode: 'repulse',
+              },
+              resize: true,
+            },
+            modes: {
+              bubble: {
+                distance: 400,
+                duration: 2,
+                opacity: 0.8,
+                size: 40,
+              },
+              push: {
+                quantity: 4,
+              },
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
+            },
+          },
+          particles: {
+            color: {
+              value: '#ffffff',
+            },
+            links: {
+              color: '#ffffff',
+              distance: 150,
+              enable: true,
+              opacity: 0.5,
+              width: 1,
+            },
+            collisions: {
+              enable: true,
+            },
+            move: {
+              direction: 'none',
+              enable: true,
+              outMode: 'bounce',
+              random: false,
+              speed: 6,
+              straight: false,
+            },
+            number: {
+              density: {
+                enable: true,
+                value_area: 800,
+              },
+              value: 80,
+            },
+            opacity: {
+              value: 0.5,
+            },
+            shape: {
+              type: 'circle',
+            },
+            size: {
+              random: true,
+              value: 5,
+            },
+          },
+          detectRetina: true,
+        }}
+      ></Particles>
+      <div className={styles.profileText}>Callum Powley</div>
+    </div>
+  )
 }
 
 export default FrontPageAnimation
