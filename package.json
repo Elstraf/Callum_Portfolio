@@ -8,10 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.x",
+    "next": "^10.2.0",
     "react": "17.x",
     "react-dom": "17.x",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-tsparticles": "^1.27.0",
+    "three": "0.124",
+    "tsparticles": "^1.27.0",
+    "vanta": "^0.5.21"
   },
   "devDependencies": {
     "prettier": "^2.3.0"

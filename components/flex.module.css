@@ -1,0 +1,30 @@
+.parent {
+  display: flex;
+  height: 300px;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.flexContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+  min-height: 55vh;
+  flex: 1 1 auto;
+}
+
+.flexItem {
+  background-color: rgb(83, 83, 83);
+  border-radius: 0.5rem;
+  padding: 5px;
+  width: 200px;
+  height: 300px;
+  margin: 6px;
+}

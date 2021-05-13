@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   height: 4rem;
-  background-color: pink;
+  background: linear-gradient(#a7a7a731, #00000025, #0000007e);
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
