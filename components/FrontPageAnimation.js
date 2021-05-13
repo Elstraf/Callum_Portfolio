@@ -70,7 +70,7 @@ const FrontPageAnimation = () => {
               enable: true,
               outMode: 'bounce',
               random: false,
-              speed: 6,
+              speed: 3,
               straight: false,
             },
             number: {
@@ -94,7 +94,10 @@ const FrontPageAnimation = () => {
           detectRetina: true,
         }}
       ></Particles>
-      <div className={styles.profileText}>Callum Powley</div>
+      <div className={styles.profileText}>
+        Callum Powley
+        <div className={styles.profileUnderText}> Games Programmer, Artificial Intelligence</div>
+      </div>
     </div>
   )
 }
