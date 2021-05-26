@@ -7,6 +7,13 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
+      <style jsx global>
+        {`
+          body {
+            background: none;
+          }
+        `}
+      </style>
       <Header />
       <FrontPageAnimation />
       <MainScreenBoxes />
