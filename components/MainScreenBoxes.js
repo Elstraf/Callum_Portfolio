@@ -21,6 +21,13 @@ const MainScreenBoxes = () => {
           <img src="images/test.png" width="100" height="100" alt="Testing Images"></img>
         </BoxComponent>
       </a>
+
+      <a href="projects/masters-project">
+        <BoxComponent name="lord queef">
+          TEST
+          <img src="images/test.png" width="100" height="100" alt="Testing Images"></img>
+        </BoxComponent>
+      </a>
     </div>
   )
 }
