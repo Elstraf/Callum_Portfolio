@@ -24,8 +24,15 @@ export default function mastersProjects() {
         in the long run.
       </p>
 
-      <a href="public\files\master.pdf">
+      <h2>Video of the project</h2>
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/XkIJLB6TWcc"></iframe>
+
+      <embded src="files\master.pdf" type="application/pdf" width="800px" height="233px">
         <h3>Masters File Download</h3>
+      </embded>
+
+      <a href="https://github.com/Elstraf/Masters-Project-">
+        <h3>Source Code</h3>
       </a>
     </>
   )
