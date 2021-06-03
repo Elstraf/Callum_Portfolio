@@ -24,7 +24,7 @@ const Header = () => {
       <div>ELSTRAF</div>
       <div className={styles.headerContent}>
         <HeaderLink name="Home" link="../" />
-        <HeaderLink name="Projects" link="projects\first-project" />
+        <HeaderLink name="Projects" link="../#All_Projects" />
         <HeaderLink name="About Me" link="../" />
       </div>
       <div className={styles.headerContent}>
