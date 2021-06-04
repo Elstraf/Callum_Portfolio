@@ -10,21 +10,30 @@ const MainScreenBoxes = () => {
     <div className={styles.flexContainer}>
       <a id="All_Projects"></a>
       <a href="projects\first-project">
-        <BoxComponent name="lord queef" image="\Images\test.jpg">
-          <img src="images/Android.png" width="100" height="100" alt="Testing Images"></img>
-          Gym App
+        <BoxComponent name="lord queef">
+          <div className={styles.flexImage}>
+            <img src="images/Android.png" alt="Testing Images"></img>
+          </div>
+          <div className={styles.flexText}>Gym App</div>
         </BoxComponent>
       </a>
 
       <a href="projects/goap-implementation">
         <BoxComponent name="lord queef">
-          <img src="images/goap.png" width="100" height="100" alt="Testing Images"></img>
-          GOAP
+          <div className={styles.flexImage}>
+            <img src="images/goap.png" alt="Testing Images"></img>
+          </div>
+          <div className={styles.flexText}>GOAP</div>
         </BoxComponent>
       </a>
 
       <a href="projects/masters-project">
-        <BoxComponent name="lord queef">Machine Learning Agent</BoxComponent>
+        <BoxComponent name="lord queef">
+          <div className={styles.flexImage}>
+            <img src="images/machinelearning.jpg"></img>
+          </div>
+          <div className={styles.flexText}>Machine Learning Agent</div>
+        </BoxComponent>
       </a>
     </div>
   )
