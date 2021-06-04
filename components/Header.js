@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './header.module.css'
-import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaLinkedin, FaFilePdf } from 'react-icons/fa'
 
 function HeaderLink({ name, link }) {
   return (
@@ -33,6 +33,9 @@ const Header = () => {
         </HeaderIcon>
         <HeaderIcon link="https://www.linkedin.com/in/callum-powley-0bb575106/">
           <FaLinkedin />
+        </HeaderIcon>
+        <HeaderIcon link="../files/Callum Powley CV.pdf">
+          <FaFilePdf />
         </HeaderIcon>
       </div>
     </div>

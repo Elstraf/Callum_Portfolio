@@ -29,7 +29,7 @@ export default function mastersProjects() {
         <iframe width="420" height="315" src="https://www.youtube.com/embed/XkIJLB6TWcc"></iframe>
 
         <h3>
-          <a href="../files/master.pdf">Masters File Download</a>
+          <a href="../files/MastersProjectReport_s6083592_Callum_Powley.pdf">Masters Thesis Download</a>
         </h3>
 
         <h3>
