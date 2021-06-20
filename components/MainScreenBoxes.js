@@ -7,8 +7,7 @@ function BoxComponent({ children, name, image }) {
 
 const MainScreenBoxes = () => {
   return (
-    <div className={styles.flexContainer}>
-      <a id="All_Projects"></a>
+    <div id="All_Projects" className={styles.flexContainer}>
       <a href="projects\first-project">
         <BoxComponent name="lord queef">
           <div className={styles.flexImage}>

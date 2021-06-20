@@ -9,8 +9,25 @@
   padding: 0 1rem;
 }
 
-.headerContent {
+.headerContent,
+.headerRight {
   display: flex;
+}
+
+.headerLeft,
+.headerRight {
+  width: 6rem;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerSOmething::after {
+}
+
+.headerSomething::before {
 }
 
 .headerLink {
